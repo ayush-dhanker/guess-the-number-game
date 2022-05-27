@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Rubik", sans-serif;
+  font-family: "Macondo", cursive; */
+  color: #e27d60;
+  font-size: 1.1rem;
+}
+body {
+  background-color: #85dcb0;
+}
+
+.topLayer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 20px;
+}
+
+.btn {
+  background-color: #e27d60;
+  color: #85dcb0;
+  text-decoration: none;
+  border: none;
+  padding: 16px 40px;
+  /* border: 4px #92503e double; */
+}
+
+.btn:hover {
+  background-color: #e5886e;
+  cursor: pointer;
+}
+
+.para1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+#middleLayer {
+  border-bottom: 0.5rem solid #e27d60;
+}
+
+#hiddenNumber {
+  display: inline-block;
+  position: relative;
+  top: 35px;
+  left: 46%;
+  padding: 22px 50px;
+  z-index: 1;
+}
+
+.part3 {
+  display: flex;
+  margin: 8rem 10rem 0 10rem;
+  justify-content: space-around;
+}
+
+#leftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#guessBtn {
+  width: 6rem;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#check {
+  padding: 14px 22px;
+}
+
+#message {
+  margin-bottom: 2rem;
+}
+
+.backgroundImg {
+  background: url("https://img.freepik.com/free-vector/lots-colorful-tiny-confetti-ribbons-transparent-background_220217-3295.jpg?w=2000")
+    no-repeat center center/cover;
+}
+.lostBackground {
+  background: url("https://t3.ftcdn.net/jpg/00/94/63/10/360_F_94631040_PfVaDxuaGPgFyWtMQPsGmYXTGqVo0vbG.jpg")
+    no-repeat center center/cover;
+  z-index: 1;
+}
